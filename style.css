@@ -1,0 +1,135 @@
+body{
+    background: linear-gradient(-45deg, #0b0011,#970890, #df2d71,#470657, #8010a8,#5816af, #1150af); 
+    background-size: 700% 700%;
+    animation: gradient 10s ease infinite;
+    background-attachment: fixed;
+    text-align: center;
+    padding-bottom: 90px;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.btn{
+    position: relative;
+    top: 280px;
+    
+}
+.main{
+   margin-bottom: 90px;
+}
+h1{
+    
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Fondamento', cursive;
+    text-shadow: 0 0 3px #ff9ac1, 0 0 5px #fc5bb4;
+    text-decoration: underline;
+}
+
+button{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+    border: rgb(247, 39, 101) solid;
+    border-radius: 20px;
+    width: 90px;
+    height: 40px;
+    color: white;
+    font-family: 'Fondamento', cursive;
+    font-size: larger;
+    text-shadow: 0 0 3px #fd82ce, 0 0 5px #ff4aae;
+}
+button:hover{
+    background-color: rgb(255, 21, 60,0.6);
+    text-shadow: 0 0 3px #fd82ce, 0 0 5px #ff4aae;
+    box-shadow: 0 0 3px #fd82ce, 0 0 5px #ff4aae;
+}
+.num{
+    
+    position: relative;
+    top: 126px;
+    
+}
+h2{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 55px;
+    color: white;
+    font-family: 'Galada', cursive; 
+    text-shadow: 0 0 3px #ff99d8, 0 0 5px #ff4aae;
+}
+
+img{
+   margin-top: -150px; 
+   width: 350px;
+   height: 350px;
+   border-radius: 50%;
+   background: linear-gradient(45deg,transparent,
+   transparent 50%, #f4f003);
+   animation: animate 8s linear infinite;
+  }
+  @keyframes animate
+  {
+     0%
+     { transform: rotate(0deg);
+     filter:hue-rotate(0deg);
+     }
+     100%
+     {
+      transform: rotate(360deg);
+       filter:hue-rotate(360deg);
+     }
+  }@media only screen and (max-width: 480px){
+    button{
+        margin-left: 6px;
+        margin-right: 6px;
+        font-size: 17px;
+        width: 75px;
+        height: 35px;
+       
+    }
+    h1{
+    
+        font-size: 50px;
+       
+    }
+    img{
+        margin-top: -70px;
+        width: 285px;
+        height: 285px;
+       
+       }
+     h2{
+       
+        width: 35px;
+        height: 35px;
+        
+        font-size: 45px;
+        
+    }  
+    .num{
+    
+        position: relative;
+        top: 154px;
+        
+    } 
+    .btn{
+        position: relative;
+        top: 300px;
+        
+    }
+    
+}
+
+  
